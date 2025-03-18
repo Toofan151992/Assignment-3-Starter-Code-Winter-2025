@@ -26,9 +26,9 @@ You will be provided with a starter project for this assignment ([Assignment3Sta
 be to complete the missing requirements where indicated. There are a number of tasks that are all identified by 
 `// TODO: ` comments throughout the `Program.cs` file.
 
-The program makes use of a main menu for top-level options and a sub-menu for the analysis options. The
-program should continue to run until the user chooses to quit the program. Ask the user to supply the 
-desired filename when saving a new monthly file. When entering new daily data, the user will need to enter new values for one month only and provide a value for each day in the month (days with no time spent studying will be recorded as zero); there is no requirement for appending values into already partially filled arrays. Ensure that date values are in valid YYYY-MMM-DD (e.g., 2025-FEB-21) format and that values are zero or positive.
+Your solution must look and behave like the sample gifs you have been provided.
+
+The program makes use of a main menu for top-level options and a sub-menu for the analysis options. The program should continue to run until the user chooses to quit the program. Ask the user to supply the desired filename when saving a new monthly file. The filename must end with .csv or .txt and not be empty. If the filename entered does not end in .csv or .txt then have it default to .csv.  When entering new daily data, the user will need to enter new values for one month only and provide a value for each day in the month (days with no time spent studying will be recorded as zero); there is no requirement for appending values into already partially filled arrays.  The user will be prompted for the month and the year. The prompt for each day should state what day (day 1, day 2, etc..) that the user is entering data for. Ensure that date values are in valid YYYY-MMM-DD (e.g., 2025-FEB-05) format and that values are zero or positive.
 
 Use two parallel arrays for storing the data in your program (one for date values and one for corresponding daily values). Keep an accurate record count for the number of days of data that have been loaded/entered.
 
