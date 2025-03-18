@@ -88,7 +88,7 @@ Minutes
    Days| 01 02 03 04 ... 29
 ```
 To determine the y-axis markers (which are in increments of 30 minutes), use the maximum value in the minutes array.
-Use the logical size of the array to limit the x-axis. 
+Use the logical size of the array to limit the x-axis. Round to the ceiling of the range. For example, this means if the value is between 30 and 60 it shows the first 3 sets of bars.
 In the chart above, the ellipsis (...) is used for demonstration only, include all days in your implementation. [difficulty 4]
 
 The program should never crash and must deal with errors gracefully.
